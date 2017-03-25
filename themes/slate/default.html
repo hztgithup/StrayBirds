@@ -1,0 +1,9 @@
+<ul class="nav">
+    {% assign pages_list = site.pages %}
+    {% assign group = 'navigation' %}
+    {% include JB/pages_list %}
+
+    {% assign pages_list = site.pages %}
+    {% assign group = 'aboutme' %}
+    {% include JB/pages_list %}
+</ul>
