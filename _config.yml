@@ -116,13 +116,13 @@ disqus:
 #################################### global configure #######################################
 
 hztgithup: minixalpha
-baseurl: /StrayBirds
+baseurl: /hztblog
 markdown: redcarpet
 safe: false
 highlighter: pygments
 title: 黄致通-个人博客
 description: 生而也有涯，学而也无涯
-theme: kunka
+theme: modernist
 disqusname: minixalpha
 
 # theme can be: hack, leap-day, merlot, midnight, minimal, modernist, slate, time-machine, kunka
