@@ -1,0 +1,122 @@
+
+/*导航条部分*/
+.kr36-default {
+    border-color: #e7e7e7;
+}
+.kr36-default .navbar-brand {
+    color: #777;
+}
+
+.kr36-default .navbar-brand{
+    width: 62px;
+    height: 60px;
+    padding: 14px 0px;
+    background: url('../images/logo.png') no-repeat center center;
+    display: block;
+    background-size: 60px 33px;
+}
+
+.kr36-default .navbar-brand:hover,
+.kr36-default .navbar-brand:focus {
+    color: #5e5e5e;
+    background-color: transparent;
+}
+.kr36-default .navbar-text {
+    color: #777;
+}
+.kr36-default .navbar-nav > li > a {
+    color: #777;
+}
+.kr36-default .navbar-nav > li > a:hover,
+.kr36-default .navbar-nav > li > a:focus {
+    color: #333;
+    background-color: transparent;
+}
+.kr36-default .navbar-nav > .active > a,
+.kr36-default .navbar-nav > .active > a:hover,
+.kr36-default .navbar-nav > .active > a:focus {
+    color: #555;
+}
+.kr36-default .navbar-nav > .disabled > a,
+.kr36-default .navbar-nav > .disabled > a:hover,
+.kr36-default .navbar-nav > .disabled > a:focus {
+    color: #ccc;
+    background-color: transparent;
+}
+.kr36-default .navbar-toggle {
+    border-color: #ddd;
+}
+.kr36-default .navbar-toggle:hover,
+.kr36-default .navbar-toggle:focus {
+    /*background-color: #ddd;*/
+}
+.kr36-default .navbar-toggle .icon-bar {
+    background-color: #888;
+}
+.kr36-default .navbar-collapse,
+.kr36-default .navbar-form {
+    border-color: #e7e7e7;
+}
+.kr36-default .navbar-nav > .open > a,
+.kr36-default .navbar-nav > .open > a:hover,
+.kr36-default .navbar-nav > .open > a:focus {
+    color: #555;
+}
+.kr36-default .navbar-link {
+    color: #777;
+}
+.kr36-default .navbar-link:hover {
+    color: #333;
+}
+.kr36-default .btn-link {
+    color: #777;
+}
+.kr36-default .btn-link:hover,
+.kr36-default .btn-link:focus {
+    color: #333;
+}
+.kr36-default .btn-link[disabled]:hover,
+fieldset[disabled] .kr36-default .btn-link:hover,
+.kr36-default .btn-link[disabled]:focus,
+fieldset[disabled] .kr36-default .btn-link:focus {
+    color: #ccc;
+}
+
+.nav .open > a, .nav .open > a:hover, .nav .open > a:focus{
+    background-color: #fff;
+}
+
+.navbar{
+    min-height: 62px;
+}
+
+@media (min-width: 768px) and (max-width: 992px){
+    .kr36-default .navbar-nav li a{
+        padding-top:15px;
+        padding-bottom: 15px;
+        padding-left:5px;
+        padding-right: 5px;
+    }
+}
+
+.navbar-wrap{
+    padding: 0px 20px;
+    box-sizing: border-box;
+    }
+
+.kr36-default  .navbar-wrap-container {
+    max-width: 1140px;
+    margin: 0px auto;
+}
+
+.kr36-default .navbar-nav > li > a{
+    line-height: 30px;
+}
+
+.kr36-default .navbar-header{
+    position: relative;
+}
+
+.navbar-wrap .nav{
+    padding-left: 5px;
+}
