@@ -121,7 +121,7 @@ markdown: redcarpet
 safe: false
 highlighter: pygments
 title: 黄致通-个人博客
-description: 这是黄致通的个人博客，这里有我写的文章
+description: 首页 Link: https://avatars.githubusercontent.com/minixalpha
 theme: slate
 disqusname: minixalpha
 
